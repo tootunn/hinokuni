@@ -373,8 +373,18 @@ footer .f-txt {
     margin: 0px;
     margin-bottom: 20px;
   }
-  .form {
-    width: 80%;
+  .text {
+    margin: 10px;
+    font-size: 10px;
+  }
+  .kome {
+    font-size: 13px;
+    color: red;
+  }
+  button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
   }
   footer .footer-logo {
     width: 40%;
