@@ -329,7 +329,7 @@ footer .f-txt {
   }
   .manu-access {
     background-color: #f0efef;
-    height: 800px;
+    height: 600px;
   }
   .access-map {
     flex-direction: column;
@@ -372,6 +372,9 @@ footer .f-txt {
     width: 100%;
     margin: 0px;
     margin-bottom: 20px;
+  }
+  .form {
+    width: 80%;
   }
   footer .footer-logo {
     width: 40%;
