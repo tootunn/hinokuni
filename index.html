@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>株式会社 火乃国</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <a href="#top"><img class="logo" src="./img/logo/logo.png"></a>
+      
+      <div class="nav">
+        <ul>
+          <li>
+            <a class="btn about" href="#about">会社概要</a>
+          </li>
+          <li>
+            <a class="btn work" href="#work">事業内容</a>
+          </li>
+          <li>
+            <a class="btn access" href="#access">アクセス</a>
+          </li>
+          <li>
+            <a class="btn contact" href="#contact">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+
+    </header>
+    <div class="main" id="top">
+      <img class="main-img" src="img/top.png" alt="会社作業員の写真です">
+    </div>
+    <div class="all">
+      <!-- 会社概要 -->
+      <div class="about" id="about">
+        <p class="all-txt">会社概要</p>
+        <div class="inline">
+        <img class="my-phot" src="img/about.png">
+        <div class="in-line">
+          <h3 class="about-txt">㈱火乃国 土木工事一式</h3>
+          <h2 class="about-txt2">代表取締役 荒牧 健一</h2>
+          
+          <p class="plof-txt">(株)火乃国では熊本県県内を中心に
+            「土木工事一式」「型枠工事一式」を承っております。<br><br>熟年の職人を中心に若い世代まで、
+            お客様に真摯に向き合い事業として
+            展開させていただいております</p>
+          </div>
+        </div>
+
+
+        <hr class="boder">
+
+      </div>
+      <!-- 事業内容 -->
+      <div class="work" id="work">
+        <p class="all-txt">事業内容</p>
+        <div class="rigth-img">
+          <img class="right right1" src="img/card/card.png">
+          <img class="right right2" src="img/card/card2.png">
+          <img class="right right3" src="img/card/card3.png">
+        </div>
+        <h3 class="work-txt">スタッフ一同日々邁進しております。</h3>
+        <div class="left-img">
+          <img  class="left left1" src="img/card/card4.png">
+          <img class="left left2" src="img/card/card5.png">
+          <img class="left left3" src="img/card/card6.png">
+        </div>
+      </div>
+    </div>
+
+      <hr class="main-boder">
+      <!-- 背景画像 -->
+      <div class="bg-img"></div>
+
+      
+      <!-- アクセス -->
+      <div class="manu-access" id="access">
+        <p class="all-txte">アクセス</p>
+        <div class="access-map">
+        <div class="house">
+          <p><i class="fas fa-map-pin fa-lg"></i>熊本県阿蘇郡南阿蘇村大字河陰381-2</p>
+          <p><i class="fas fa-envelope fa-lg"></i>hinokuni325@yahoo.co.jp</p>
+          <p><i class="fas fa-phone-volume fa-lg"></i>090-8835-4252</p>
+          <p><i class="fas fa-fax fa-lg"></i>0967-67-3272</p>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53641.0644305623!2d130.96843400016616!3d32.83024857457407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540dc4a0842682f%3A0x7be6fba5f5e67408!2z44CSODY5LTE0MTEg54aK5pys55yM6Zi_6JiH6YOh5Y2X6Zi_6JiH5p2R5aSn5a2X5rKz6Zmw!5e0!3m2!1sja!2sjp!4v1582875459945!5m2!1sja!2sjp" width="450" height="400" frameborder="20" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+      </div>
+
+      <div class="all">
+      <!-- お問い合わせ -->
+      <div class="contact" id="contact">
+        <p class="all-txt">お問い合わせ</p>
+
+      <div class="mail">
+        <form class="formrun" action="https://form.run/api/v1/r/xf9usv3wmyi56dbxzbjujvpi" method="post">
+          <!-- ↓自由に要素を追加・編集することができます -->
+          <div class="text">
+            <label>お名前</label>
+            <input class="form" name="お名前" type="text" data-formrun-required>
+          </div>
+        
+          <div class="text">
+            <label>メールアドレス<span class="kome">※</span></label>
+            <input class="form" name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+            <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+          </div>
+        
+          <div class="text">
+            <label>お問い合わせ<span class="kome">※</span></label>
+            <textarea  class="form" name="お問い合わせ" data-formrun-required></textarea>
+            <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+          </div>
+        
+          <!-- ボット投稿をブロックするためのタグ -->
+          <div class="_formrun_gotcha">
+            <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+            <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+            <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+          </div>
+        
+          <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+        </form>
+      </div>
+      </div>
+    </div>
+    
+      <!-- フッター -->
+    <footer>
+      <img class="footer-logo" src="img/logo/logo.png">
+      <div class="f-txt">
+        <h4>株式会社　火乃国</h4>
+        <h5>代表取締役 荒牧 健一</h5>
+        <p>熊本県阿蘇郡南阿蘇村大字河陰381-2</p>
+        <p>090-8835-4252</p>
+        <p> 0967-67-3272</p>
+        <p>hinokuni325@yahoo.co.jp</p>
+      </div>
+
+    </footer>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+  </html>
